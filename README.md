@@ -22,6 +22,7 @@ To build the project, execute the following Maven command:
 After building, a JAR file with dependencies will be generated in the `target` directory.
 
 ## Running the Application
+**There are 2 versions of the program - OcadoTask_count.jar creates the schedule to maximize the number of tasks, OcadoTask_value.jar maximizes the value.**
 To run the application, use the following command:
 ```java -jar <jar_file_path> <store_file_path> <orders_file_path>```
 The schedule will be printed to the standard output.
